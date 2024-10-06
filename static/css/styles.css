@@ -1,0 +1,198 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color Palette */
+:root {
+    --background-color: #000; /* Black background */
+    --card-background: rgba(255, 255, 255, 0.1); /* Card background with transparency */
+    --card-border: rgba(255, 255, 255, 0.3); /* Card border color */
+    
+    /* NASA Colors */
+    --text-color: #ffffff; /* White text color */
+    --primary-color: #0076A8; /* NASA Blue for primary accents */
+    --secondary-color: #FF6F20; /* NASA Orange for secondary accents */
+    --tertiary-color: #A7A8AA; /* NASA Gray for tertiary accents */
+    --quaternary-color: #E41F2D; /* NASA Red for additional accents */
+    
+    /* Additional Colors for Buttons */
+    --button-hover-color: #005f8a; /* Darker shade of NASA Blue for button hover effect */
+    --button-secondary-hover-color: #d55c16; /* Darker shade of NASA Orange for secondary button hover */
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color); /* Black background */
+    color: var(--text-color); /* Light gray text */
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    color: var(--primary-color); /* Use primary color for headings */
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* Links */
+a {
+    color: var(--primary-color); /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Glassmorphism Effect for Cards */
+.card {
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 1000px;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Buttons */
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px 60px 30px 60px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--button-hover-color); /* Darker background on hover */
+}
+
+/* Grid System */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+/* Additional Utility Classes */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-tertiary {
+    background-color: var(--tertiary-color);
+}
+
+.bg-quaternary {
+    background-color: var(--quaternary-color);
+}
+
+.rounded {
+    border-radius: 5px; /* Generic rounded corners */
+}
+
+.border {
+    border: 1px solid var(--card-border);
+}
+
+.shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Default shadow */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .col {
+        flex: 100%; /* Full width columns on small screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .col {
+        flex: 50%; /* Two columns on medium screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .col {
+        flex: 33.33%; /* Three columns on larger screens */
+    }
+}
