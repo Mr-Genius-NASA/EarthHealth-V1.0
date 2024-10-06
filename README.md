@@ -21,13 +21,17 @@ Although the project is unfinished, we have managed to implement two functions:
 - **Forum**: A basic forum for community discussions and engagement.
 - **3D Globe**: A 3D globe visualization, allowing users to interact with the globe. However, it currently does not display any greenhouse gas data.
 
+### Commitment to Completion
+
+We want to assure everyone that we are committed to working on the EarthHealth project until it is fully finished. Our goal is to develop a fully functional application that meets the needs of researchers and the community, effectively conveying the importance of understanding greenhouse gas emissions. We believe that with further development, our app could potentially earn a second chance in the eyes of NASA subject matter experts.
+
 ### Contribution
 
 If you are interested in helping us enhance this project, your support would be greatly appreciated! We welcome contributions, ideas, and feedback. Here’s how you can help:
 
-Report any issues or bugs you encounter.
-Share your thoughts and suggestions for improvements.
-Contribute code, documentation, or design elements.
+- Report any issues or bugs you encounter.
+- Share your thoughts and suggestions for improvements.
+- Contribute code, documentation, or design elements.
 
 ### Contact Us
 
@@ -37,4 +41,4 @@ My Email: [sinkokokyal983@gmail.com](mailto:sinkokokyal983@gmail.com)
 
 ### Conclusion
 
-Thank you for your understanding and support. We genuinely appreciate your interest in our project, and we hope to do better in the future. 
+Thank you for your understanding and support. We genuinely appreciate your interest in our project, and we hope to do better in the future.
