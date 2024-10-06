@@ -33,7 +33,7 @@ Contribute code, documentation, or design elements.
 
 If you have any questions or would like to collaborate, please reach out to:
 
-My Email: [sinkokokyal983@gmail.com] [mailto:sinkokokyal983@gmail.com]
+My Email: [sinkokokyal983@gmail.com](mailto:sinkokokyal983@gmail.com)
 
 ### Conclusion
 
