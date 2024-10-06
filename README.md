@@ -21,26 +21,20 @@ Although the project is unfinished, we have managed to implement two functions:
 - **Forum**: A basic forum for community discussions and engagement.
 - **3D Globe**: A 3D globe visualization, allowing users to interact with the globe. However, it currently does not display any greenhouse gas data.
 
-### Looking Ahead
-
-While we are disappointed with our current progress, we are committed to improving this project. We recognize the importance of addressing greenhouse gas emissions and the role they play in our environment, and we hope to refine and complete this project in the future.
-
 ### Contribution
 
 If you are interested in helping us enhance this project, your support would be greatly appreciated! We welcome contributions, ideas, and feedback. Here’s how you can help:
 
-- Report any issues or bugs you encounter.
-- Share your thoughts and suggestions for improvements.
-- Contribute code, documentation, or design elements.
+Report any issues or bugs you encounter.
+Share your thoughts and suggestions for improvements.
+Contribute code, documentation, or design elements.
 
 ### Contact Us
 
 If you have any questions or would like to collaborate, please reach out to:
 
-- **Your Name**: [sinkokokyal983@gmail.com](mailto:sinkokokyal983@gmail.com)
+My Email: [sinkokokyal983@gmail.com] [mailto:sinkokokyal983@gmail.com]
 
-## Conclusion
+### Conclusion
 
-Thank you for your understanding and support. We genuinely appreciate your interest in our project, and we hope to do better in the future. Together, we can work towards a greater understanding of greenhouse gases and their impact on our neighborhoods.
-
-**We apologize for any disappointment caused and appreciate your patience.**
+Thank you for your understanding and support. We genuinely appreciate your interest in our project, and we hope to do better in the future. 
